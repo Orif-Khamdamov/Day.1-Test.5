@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.topbar{
+    display: flex;
+    height: 80px;
+    padding-left: 50px;
+    font-size: 15px;
+    align-items: center;
+    background-color: #0E1C4C;
+    color: white;
+    border: 0.5px solid gray;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.sign_in{
+    padding:15px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.background{
+    width: 100%;
+    height: 90vh;
+    background-color: #0E1C4C;
+    display: flex;
+    padding-top:20px;
+}
+.background_left{
+    padding-top: 100px;
+    padding-left: 150px;
+    color:white;
+}
+.background_image{
+    width:300px;
+}
+.background_bottom{
+    padding-left: 200px;
+    padding-bottom: 150px;
+    color:white;
+    background-color: #0E1C4C;
+}
+.meet_the_product{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.meet_left_inside{
+    width:450px; height:220px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.meet_inside_block{
+    width:150px; height: 50px;
+    font-size: 13px;
+}
+.background_middle{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img_exam2/background_middle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    padding-top:20px;
+}
+.back_middle_text{
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.back_middle_image{
+    display: flex;
+    padding:50px;
+    justify-content: space-evenly;
+}
+.background_middle2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img_exam2/background_bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding-top:20px;
+}
+.back_middle2_text{
+    width: 30%;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+.back_middle2_image{
+    padding-top: 100px;
+}
+.footer_blue{
+    width: 100%;
+    height: 110vh;
+    background-color: #0E1C4C;
+    color:white;
+}
+.footer_blue_text{
+    text-align: center;
+    padding-top: 100px;
+}
+.footer_blue_block_main{
+    padding:50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_blue_block{
+    width:250px;
+    height:370px;
+    padding:30px;
+    background-color: #22326A;
+    border-radius: 20px;
+    line-height: 30px;
+}
+.footer_blue_block2{
+    width:250px;
+    height:370px;
+    padding:30px;
+    background-color: #162457;
+    border-radius: 20px;
+    line-height: 30px;
+}
+.footer_blue_block3{
+    width:250px;
+    height:370px;
+    padding:30px;
+    background-color: #162457;
+    background-image: url(./img_exam2/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 95% 5%;
+    border-radius: 20px;
+    line-height: 30px;
+}
+.start_free1{
+    width: 250px;
+    padding:15px;
+    margin-top: 130px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.start_free2{
+    width: 250px;
+    padding:15px;
+    margin-top: 40px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.start_free3{
+    width: 250px;
+    padding:15px;
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.footer_white{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer_abroater{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.footer_abroater_block{
+    line-height: 30px;
+}
+.footer_end{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.5;
+    border: 0.5px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+}
